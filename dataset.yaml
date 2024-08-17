@@ -1,0 +1,5 @@
+names:
+  0: car_lisence_plate
+path: plate_datasets
+train: images
+val: images
