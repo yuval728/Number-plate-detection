@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 
-number_plate_model = YOLO(r"runs\exp\weights\best.pt")
+number_plate_model = YOLO("best.pt")
 
 def detect_number_plate(image):
     # image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
